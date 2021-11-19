@@ -1,4 +1,4 @@
-.add-Appointment .card-body {
+.add-appointment .card-body {
   display: none;
 }
 
@@ -24,7 +24,6 @@
   color: #337ab7;
   font-size: 1.3em;
   line-height: 100%;
-  margin-right: 50px;
 }
 
 .appointment-list .label-item{
