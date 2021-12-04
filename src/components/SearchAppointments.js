@@ -14,7 +14,7 @@ class SearchAppointments extends Component {
                   aria-label="Search Appointments"
                   onChange={ e => this.props.searchApts(e.target.value)}
                 />
-                <div class="dropdown input-group-append">
+                <div className="dropdown input-group-append">
                   <button className="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                     Sort By
                   </button>
@@ -40,7 +40,7 @@ class SearchAppointments extends Component {
                      onClick={ _e => this.props.changeOrder(this.props.orderBy, 'asc')}
                      >
                        Asc</a></li>
-                    <li><a className={'dropdown-item sort-by' + (this.propsorderDir === 'desc' ? 'active' : '')}
+                    <li><a className={'dropdown-item sort-by' + (this.props.orderDir === 'desc' ? 'active' : '')}
                      href="#"
                      onClick={_e => this.props.changeOrder(this.props.orderBy, 'desc')}
                      >
