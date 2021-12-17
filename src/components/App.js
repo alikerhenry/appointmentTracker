@@ -5,6 +5,8 @@ import SearchAppointments from './SearchAppointments';
 import ListAppointments from './ListAppointments';
 import { findIndex, without } from 'lodash';
 
+//final build on https://keen-mclean-82e7c6.netlify.app
+
 class App extends Component {
   constructor (){
     super();
